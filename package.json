@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "Landing site + companion-finder quiz for the **Silver Circuit** channel — independent reviews of AI companions and care technology for aging parents. An Influencers.NYC Media property.",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/influencersnyc/Silver-Circuit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/influencersnyc/Silver-Circuit/issues"
+  },
+  "homepage": "https://github.com/influencersnyc/Silver-Circuit#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}

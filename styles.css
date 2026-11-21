@@ -125,6 +125,11 @@ p  { margin-bottom: 1rem; }
 }
 .guide-card:hover { box-shadow: var(--shadow); }
 .guide-card p { color: var(--muted); font-size: 0.94rem; margin-bottom: 0; }
+a.guide-card { display: block; text-decoration: none; color: inherit; }
+a.guide-card:hover { border-color: var(--gold); }
+.watch-now {
+  display: inline-block; margin-top: 14px; color: var(--gold); font-weight: 700; font-size: 0.9rem;
+}
 .tag {
   display: inline-block; background: var(--navy); color: var(--gold);
   font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;

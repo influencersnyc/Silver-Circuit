@@ -23,7 +23,7 @@ Or: Vercel dashboard → **Add New Project** → import this repo → Framework 
 
 ## Before launch — 3 TODOs
 
-1. **Email capture:** the checklist form posts to a placeholder (`https://formspree.io/f/YOUR_FORM_ID`). Create a free form at [formspree.io](https://formspree.io) pointed at `hello@silvercircuit.care` (works with the catch-all mailbox), and replace `YOUR_FORM_ID` in `index.html`. The lead magnet file is `SilverCircuit-Buyers-Checklist-2026.pdf` — attach it as the Formspree auto-reply (recommended: keeps it email-gated) or add it at the repo root and link it in the confirmation email.
+1. **Email capture:** ✅ Done — the checklist form posts to Formspree (`https://formspree.io/f/moedndkr`, delivering to `hello@silvercircuit.care` via the catch-all). Remaining setup in the Formspree dashboard: attach `SilverCircuit-Buyers-Checklist-2026.pdf` as the auto-reply email so new subscribers receive it instantly.
 2. **Domain:** SilverCircuit.care — in Vercel → Project Settings → Domains, add `silvercircuit.care` (and `www`), then follow the DNS prompts.
 3. **Guide links:** the six guide cards currently match the first videos. Link each card to the YouTube video (or a full article page) as they publish.
 

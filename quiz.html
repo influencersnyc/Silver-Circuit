@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Which AI Companion Fits Your Parent? — Silver Circuit</title>
+  <meta name="description" content="Six questions, two minutes, one clear recommendation — matched to your parent's living situation, tech comfort, and budget." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Silver<span>Circuit</span></a>
+      <nav class="site-nav">
+        <a href="index.html#guides">Guides</a>
+        <a href="index.html#checklist" class="nav-cta">Free Checklist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="quiz-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="progressBar"></div></div>
+
+    <!-- Quiz renders here -->
+    <div id="quizRoot" class="quiz-question"></div>
+
+    <!-- Result renders here -->
+    <div id="resultRoot"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Silver<span>Circuit</span></p>
+      <p class="footer-legal">This quiz gives general guidance, not medical advice. Always involve your parent's care team in decisions about cognitive decline.<br />Silver Circuit is an Influencers.NYC Media property.</p>
+    </div>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
